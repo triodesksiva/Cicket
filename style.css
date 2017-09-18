@@ -1,3 +1,55 @@
-.arrow-left,.arrow-right,.score-board {
-	border: 1px solid #444;
+body {
+	 font-family: 'Roboto Condensed', sans-serif;
 }
+.arrow-left,.arrow-right,.score-board {
+	/*border: 1px solid #444;*/
+}
+.carousel-item img.slide-img {
+	width: 700px;
+	height: 500px;
+	max-width: 100%;
+	height: auto;
+}
+.carousel-caption img{
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+	height: auto;
+}
+.carousel-caption h4.lead {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #f8f9fa;
+}
+.cricket-article p{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: justify;
+}
+.cricket-article img{
+	width: 100px;
+	height: 100px;
+	max-width: 100%;
+	height: auto;
+	float: left;
+}
+#article {
+	overflow: hidden;
+	/*background-color: 	#a6adb6;*/
+	background-image: url(img/bg-img3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	color: #ffffff;
+}
+
+@media (max-width: 767px)
+ {
+ 	.card .btn {
+ 		font-size: 0.8rem;
+        padding: 2px;
+        max-width: 100%;
+ 	}
+ 	.card-title {
+ 		font-size: 0.9rem;
+ 	}
+ }
