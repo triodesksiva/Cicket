@@ -9,11 +9,15 @@ div.border-col {
 	border: 1px solid #444;
 }
 .arrow-left,.arrow-right {
-	margin-top: 60%;
+	margin-top: 2rem;
 }
 .arrow-left .fa,.arrow-right .fa {
 	color: #395a5a;
 	font-size: 24px;
+}
+.arrow-left .fa:hover, .arrow-right .fa:hover {
+    color: #69acac;
+    font-size: 42px;
 }
 .wrap {
 	
@@ -31,14 +35,14 @@ div.border-col {
 }
 .carousel-caption img,.carousel-change img{
     width: 120px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     max-width: 100%;
 	height: 38px;
 	margin-right: 2%;
-	background-color: #a9a9a9;
+	background-color: #fbf6f6;
 }
 .carousel-caption img:hover,.carousel-change img:hover {
-    background-color: #fff;
+    background-color: #a9e8af;
 }
  
 .cricket-article p{
@@ -113,7 +117,7 @@ div.border-col {
  	}
  	.arrow-left .fa,.arrow-right .fa {
 	color: #395a5a;
-	padding-top: 100%;
+	
     }
     .display-4 {
     	font-size: 2rem;
@@ -172,7 +176,7 @@ div.border-col {
      div.border-col {
     	padding: unset;
     }
-    .arrow-left, .arrow-right {
-    margin-top: 50%;
+    .arrow-left,.arrow-right {
+    margin-top: 2rem;
 }
  }
