@@ -9,7 +9,9 @@ div.border-col {
 	border: 1px solid #444;
 }
 .arrow-left,.arrow-right {
-	margin-top: 2rem;
+	padding-top: 1.5rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
 }
 .arrow-left .fa,.arrow-right .fa {
 	color: #395a5a;
@@ -21,11 +23,21 @@ div.border-col {
 }
 .wrap {
 	
-	background: url(img/1.png) no-repeat,url(img/stevesmith.png)  no-repeat;
+	/*background: url(img/1.png) no-repeat,url(img/stevesmith.png)  no-repeat;
 	background-position: center left,center right;
-	background-size: 7% 100% ,7% 100%;
-	background-color: #e9eaec;
-
+	background-size: 7% 100% ,7% 100%;*/
+	/*background-color: #e9eaec;
+*/
+}
+.score-main a {
+    color: unset;
+}
+.score-board a {
+    text-decoration: none;
+}
+.score-board:hover {
+    background-color:   #6d6765;
+    color: #fff;
 }
 .carousel-item .slide-img {
 	
@@ -68,8 +80,12 @@ div.border-col {
 	color: #ffffff;
 	padding: 5% 0 5% 0;
 }
+.center-content {
+    background: url(img/bestbg2.jpg);
+    background-size: 100% 100%;
+}
 #footer {
-  height: 60px;
+  /*height: 60px;*/
   background-color: #f5f5f5;
 }
 #footer span {
@@ -112,9 +128,9 @@ div.border-col {
  }
  @media (max-width: 768px)
  {
- 	.wrap {
+ 	/*.wrap {
  		background-size: 50% 100% ,54% 100%,64% 100%;
- 	}
+ 	}*/
  	.arrow-left .fa,.arrow-right .fa {
 	color: #395a5a;
 	
@@ -139,9 +155,9 @@ div.border-col {
         max-width: 100%;
 	    height: auto;
     }*/
-    .wrap {
+    /*.wrap {
     	background-image: none;
-    }
+    }*/
     div.border-col {
     	border: unset;
     }
@@ -176,7 +192,5 @@ div.border-col {
      div.border-col {
     	padding: unset;
     }
-    .arrow-left,.arrow-right {
-    margin-top: 2rem;
-}
+    
  }
